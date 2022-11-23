@@ -1,36 +1,50 @@
-h1{
-  font-size: 1.602em;
-  line-height:2em;
-  background-color: #cf1e1e;
-  color: #f8d4bf;
+/* CSS Reset Meyer Reset*/
+/* stylelint-disable */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-h2{
-  font-size: 1.424em;
-  line-height:1.5em;
-  background-color: #404040;
-  color: #ffffff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
-h3{
-  font-size: 1.266em;
-  line-height:1.3em;
+body {
+    line-height: 1;
 }
-h4{
-  font-size: 1.125em;
+ol, ul {
+    list-style: none;
 }
-li{
-  padding-left: 10px;
+blockquote, q {
+    quotes: none;
 }
-p ~ p{
-  padding-top: 5px;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
 }
-nav{
-  height: 30px;
-  margin-top: 10px;
-}
-section{
-  padding: 10px 0;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
