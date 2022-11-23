@@ -1,0 +1,36 @@
+h1{
+  font-size: 1.602em;
+  line-height:2em;
+  background-color: #cf1e1e;
+  color: #f8d4bf;
+}
+h2{
+  font-size: 1.424em;
+  line-height:1.5em;
+  background-color: #404040;
+  color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+h3{
+  font-size: 1.266em;
+  line-height:1.3em;
+}
+h4{
+  font-size: 1.125em;
+}
+li{
+  padding-left: 10px;
+}
+p ~ p{
+  padding-top: 5px;
+}
+nav{
+  height: 30px;
+  margin-top: 10px;
+}
+section{
+  padding: 10px 0;
+}
