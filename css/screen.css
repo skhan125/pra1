@@ -34,13 +34,15 @@ form ol li label{
 
 form ol li input {
     background-color: #CFEDFF;
-    border: 0 solid gray;
-    border-radius: 0.1em;
+    border: 1px solid #444b53;
+    border-radius: 8px;
     font-family: auto;
-    font-size: 0.833333em; /* 15/18 = 0.833333em*/
-    height: 2em;/* 24/18 = 1.6em*/
+    font-size: 16px,
+    height: 48px;
     margin-bottom: 1em;
-    padding: 0 0 0 0.4em; /* 6/15 = 0.4em*/
+    padding: 0 12px;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 
 li input:hover, li input:focus-within, li input:focus, li select:hover, li select:focus-within, li select:focus {
