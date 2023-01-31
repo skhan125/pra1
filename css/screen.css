@@ -58,6 +58,7 @@ form ol li button{
     padding: 0 2em;
     background: inherit;
     background-color: #0e72ed;
+    margin: auto;
     color: #fff;
     border: 0;
     border-radius: 0.3em;
