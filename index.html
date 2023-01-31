@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Sufyan's Semester for ITMD 362</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
+    <title>Lab 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-tofit=no,maximum-scale-1.0" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css">
 <body>
-  <div>
-    <h1>My classes for this semester:</h1>
-    <p>This website is used to show that I have not forgotten HTML.</p>
-    <h2>My classes:</h2>
-    <ul>
-      <li>ITMD-362 Human-Computer Interaction and Web Design</li>
-      <li>ITMS-478 Cyber Security Management</li>
-      <li>IPRO-417 Global Product Development</li>
-      <li>FDSN-201 Food Science and Nutrition</li>
-    </ul>
-    <h2> This is my favorite GIF</h2> 
-    <img src="images/the-office.gif" alt="Office" style="width:300px;height:300px;">
-    <footer>
-      <p>Website made by Sufyan Khan Yousuf Zai</p>
-      <address>
-        <p><a href="mailto:skhan125@hawk.iit.edu">skhan125@hawk.iit.edu</a></p>
-      </address>
-    </footer>
-  </div>
+<div class="container">
+    <h2> Enter User Information </h2>
+    <form method="get" action="#null" autocomplete="on" >
+        <!-- Structure all form elements with an ordered list -->
+        <!-- Replace nested label input to individual label input elements with "for" tag -->
+        <ol>
+            <li class="textInput">
+                <label for="emailAdress">Email</label>
+                <input type="text" name="emailAddress" placeholder="Email" id="emailAddress" />
+            </li>
+            <li class="textInput">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" name="phoneNumber" placeholder="Phone Number" id="phoneNumber" />
+            </li>
+            <li class="dateOfBirth">
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" name="dateOfBirth" id="dateOfBirth" />
+            </li>
+            <li class="button">
+                <button aria-label="submit">Submit</button>
+            </li>
+        </ol>
+    </form>
+</div>
 </body>
-
 </html>
