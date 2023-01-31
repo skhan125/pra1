@@ -56,7 +56,8 @@ form ol li input:focus-visible {
 form ol li button{
     padding: 0 2em;
     background: inherit;
-    background-color: rgb(177 226 255 / 70%);
+    background-color: #0e72ed;
+    color: #fff;
     border: 0;
     border-radius: 0.3em;
     cursor: pointer;
